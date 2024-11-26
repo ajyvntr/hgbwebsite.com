@@ -6,7 +6,7 @@ btnLogin.addEventListener('click', function(e) {
     e.preventDefault();
       if (username.value === "hgb" && password.value === "hgb123") {
         alert("Login Successful")
-        window.location = "/SIA/MainPage/index.html"
+        window.location = "/MainPage/index.html"
     }else{
       alert("Invalid Urename or Passwprd");
       return;
